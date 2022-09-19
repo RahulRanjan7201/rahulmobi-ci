@@ -1,0 +1,9 @@
+version: '3.8'
+services: 
+  rahulapptest:
+    image: rahulimageapp:v1
+    build: . 
+    container_name: rahulc1
+    ports:
+    - "3000:80"
+    restart: always
